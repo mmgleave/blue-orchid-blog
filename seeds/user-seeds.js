@@ -3,55 +3,55 @@ const { User, Post } = require('../models');
 
 const userdata = [
   {
-    username: 'alesmonde0',
-    email: 'nwestnedge0@cbc.ca',
+    username: 'nportman',
+    email: 'nportman@starwars.com',
     password: 'password123'
   },
   {
-    username: 'jwilloughway1',
-    email: 'rmebes1@sogou.com',
+    username: 'hchristensen',
+    email: 'hchristensen@starwars.com',
     password: 'password123'
   },
   {
-    username: 'iboddam2',
-    email: 'cstoneman2@last.fm',
+    username: 'emcgregor',
+    email: 'emcgregor@starwars.com',
     password: 'password123'
   },
   {
-    username: 'dstanmer3',
-    email: 'ihellier3@goo.ne.jp',
+    username: 'hford',
+    email: 'hford@starwars.com',
     password: 'password123'
   },
   {
-    username: 'djiri4',
-    email: 'gmidgley4@weather.com',
+    username: 'cfisher',
+    email: 'USER @starwars.com',
     password: 'password123'
   },
   {
-    username: 'msprague5',
-    email: 'larnout5@imdb.com',
+    username: 'mhamill',
+    email: 'mhamill@starwars.com',
     password: 'password123'
   },
   {
-    username: 'mpergens6',
-    email: 'hnapleton6@feedburner.com',
+    username: 'fjones',
+    email: 'fjones@starwars.com',
     password: 'password123'
   },
   {
-    username: 'tpenniell7',
-    email: 'kperigo7@china.com.cn',
+    username: 'atudyk',
+    email: 'atudyk@starwars.com',
     password: 'password123'
   },
   {
-    username: 'msabbins8',
-    email: 'lmongain8@google.ru',
+    username: 'dluna',
+    email: 'dluna@starwars.com',
     password: 'password123'
   },
   {
-    username: 'jmacarthur9',
-    email: 'bsteen9@epa.gov',
+    username: 'ppascal',
+    email: 'ppascal@starwars.com',
     password: 'password123'
-  }
+  },
 ];
 
 const seedUsers = () => User.bulkCreate(userdata, {individualHooks: true});
