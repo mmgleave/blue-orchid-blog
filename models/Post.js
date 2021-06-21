@@ -17,7 +17,7 @@ Post.init(
       allowNull: false
     },
     post_text: {
-      type: DataTypes.TEXT,
+      type: DataTypes.MEDIUMTEXT,
       allowNull: false
     },
     user_id: {
